@@ -1,3 +1,9 @@
+/**
+ * Main class for Spring Authenticator
+ * MSA-E7
+ *
+ * @author Pratyush Kumar (github.com/pratyushgta)
+ */
 package com.authexample.authdemo;
 
 import org.springframework.boot.SpringApplication;

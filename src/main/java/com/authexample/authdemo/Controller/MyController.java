@@ -1,3 +1,10 @@
+/**
+ * This class contains methods for implementing controller for SpringBoot Application
+ * MSA-E7
+ *
+ * @author Pratyush Kumar (github.com/pratyushgta)
+ */
+
 package com.authexample.authdemo.Controller;
 
 import org.springframework.stereotype.Controller;

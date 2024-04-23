@@ -1,3 +1,9 @@
+/**
+ * This class contains methods for implementing security configurations for Spring Authenticator
+ * MSA-E7
+ *
+ * @author Pratyush Kumar (github.com/pratyushgta)
+ */
 package com.authexample.authdemo.Authentication;
 
 import org.springframework.context.annotation.Bean;
@@ -8,16 +14,15 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 /*@EnableWebSecurity
-public class SecurityConfiguration extends WebSecurityConfigurerAdapter
-{
+public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
         // auth.userDetailsService(userDetailsService);
-        auth.inMemoryAuthentication().withUser("tom").password("secret123").roles("USER");   }
+        auth.inMemoryAuthentication().withUser("tom").password("secret123").roles("USER");
+    }
 
     @Override
-    protected void configure(HttpSecurity http) throws Exception
-    {
+    protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
                 .antMatchers("/user").hasRole("USER")
                 .antMatchers("/").permitAll()
@@ -26,5 +31,6 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter
 
     @Bean
     public PasswordEncoder getPasswordEncoder() {
-        return NoOpPasswordEncoder.getInstance(); }
-*/
+        return NoOpPasswordEncoder.getInstance();
+    }
+}*/
